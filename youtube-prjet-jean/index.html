@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Youtube Redesign</title>
+</head>
+
+<body>
+    <div class="global-body">
+        <!-- sidebar-left -->
+
+        <div class="sidebar-left">
+            <div class="section1">
+                <div class="sidebar-header">
+                    <a href="#"><img class="logo-youtube" src="img/logos/logo-youtube.png" alt="logo-youtube"></a>
+
+                </div>
+                <div class="sidebar-body">
+                    <div class="container-picture-profile">
+                        <div class="circle">
+                            <img class="picture-profile" src="img/users/me.jpeg" alt="profile-photo">
+                            <div class="red-point"></div>
+                        </div>
+                        <span>Nannie nelson</span>
+                        <span>Montreal QC</span>
+
+                    </div>
+
+                    <div class="sidebar-count">
+                        <div>
+                            <span>278 </span>
+                            <span>VIDEO</span>
+                        </div>
+                        <div>
+                            <span>36,5K</span>
+                            <span>SUBSCRIBERS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section2 -->
+            <div class="section2">
+                <div class="network-social1">
+                    <img src="img/logos/icon-video.svg" alt="icon-social" class="social-icon">
+                    <span class="title-social">Video</span>
+                </div>
+                <div class="network-social1">
+                    <img src="img/logos/movie.svg" alt="icon-social" class="social-icon">
+                    <span class="title-social">Movies & Show</span>
+                </div>
+                <div class="network-social1">
+                    <img src="img/logos/card_giftcard_black_24dp.svg" alt="icon-social" class="social-icon">
+                    <span class="title-social">Premium Contents</span>
+                </div>
+                <div class="network-social1">
+                    <img src="img/logos/add_box_black_24dp.svg" alt="icon-social" class="social-icon">
+                    <span class="title-social">Live</span>
+                </div>
+            </div>
+            <!-- section3 -->
+            <div class="section3">
+               
+                <img src="img/logos/add_box_black_24dp.svg" alt="icon-social" class="social-icon">
+                <span class="title-social">SUBDCRIBERS </span><span class="title-size-grade" >29 NEWS</span>
+                <div class="network-social1">
+                    <img src="img/logos/add_box_black_24dp.svg" alt="icon-social" class="social-icon">
+                    <span class="title-social">Lbrary</span>
+                </div>
+                <div class="network-social1">
+                    <img src="img/logos/library.svg" alt="icon-social" class="social-icon">
+                    <span class="title-social">Liked videos</span>
+                </div>
+                <div class="network-social1">
+                    <img src="img/logos/like.svg" alt="icon-social" class="social-icon">
+                    <span class="title-social">watch Later</span>
+                </div>
+            </div>
+            <div class="section4">
+                <div class="network-social1">
+                    <img src="img/logos/setting.svg" alt="icon-social" class="social-icon">
+                    <span class="title-social">Settings</span>
+                </div>
+                <div class="network-social1 space">
+                    <img src="img/logos/menbre-rapport.svg" alt="icon-social" class="social-icon">
+                    <span class="title-social">Library</span>
+                </div>
+                <div class="container-end">
+                    <div>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                          </label>
+                          
+                        <p class="title-social">Light on</p>
+                    </div>
+                    <div class="network-social1">
+
+                        <span class="title-social">Logout </span>
+                        <p class="copyright">&copy;2018 Youtube ,LLC</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- main part of body -->
+        <div class="main-body">
+            <header>
+                <div></div>
+                <div class="container-input">
+                    <input type="text" placeholder=" search video start or authors">
+                    <a href="#"> <img src="img/logos/search_black_24dp.svg" alt="" class="icon-search-input"></a>
+
+
+                </div>
+                <div class="header-link">
+                    <a href="#"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="#ffffff" style="background-color: brown; border-radius:50%">
+                            <title>plus-circle</title>
+                            <path
+                                d="M23 12c0-3.037-1.232-5.789-3.222-7.778s-4.741-3.222-7.778-3.222-5.789 1.232-7.778 3.222-3.222 4.741-3.222 7.778 1.232 5.789 3.222 7.778 4.741 3.222 7.778 3.222 5.789-1.232 7.778-3.222 3.222-4.741 3.222-7.778zM21 12c0 2.486-1.006 4.734-2.636 6.364s-3.878 2.636-6.364 2.636-4.734-1.006-6.364-2.636-2.636-3.878-2.636-6.364 1.006-4.734 2.636-6.364 3.878-2.636 6.364-2.636 4.734 1.006 6.364 2.636 2.636 3.878 2.636 6.364zM8 13h3v3c0 0.552 0.448 1 1 1s1-0.448 1-1v-3h3c0.552 0 1-0.448 1-1s-0.448-1-1-1h-3v-3c0-0.552-0.448-1-1-1s-1 0.448-1 1v3h-3c-0.552 0-1 0.448-1 1s0.448 1 1 1z">
+                            </path>
+                        </svg></a>
+                    <a href="#">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <title>twitch</title>
+                            <path
+                                d="M20 3v10.586l-3.414 3.414h-4.586c-0.256 0-0.512 0.098-0.707 0.293l-2.293 2.293v-1.586c0-0.552-0.448-1-1-1h-4v-14zM21 1h-18c-0.552 0-1 0.448-1 1v16c0 0.552 0.448 1 1 1h4v3c0 0.552 0.448 1 1 1 0.276 0 0.526-0.112 0.707-0.293l3.707-3.707h4.586c0.276 0 0.526-0.112 0.707-0.293l4-4c0.195-0.195 0.293-0.451 0.293-0.707v-12c0-0.552-0.448-1-1-1zM12 11v-4c0-0.552-0.448-1-1-1s-1 0.448-1 1v4c0 0.552 0.448 1 1 1s1-0.448 1-1zM17 11v-4c0-0.552-0.448-1-1-1s-1 0.448-1 1v4c0 0.552 0.448 1 1 1s1-0.448 1-1z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <title>archive</title>
+                            <path
+                                d="M4 9h16v11h-16zM1 2c-0.552 0-1 0.448-1 1v5c0 0.552 0.448 1 1 1h1v12c0 0.552 0.448 1 1 1h18c0.552 0 1-0.448 1-1v-12h1c0.552 0 1-0.448 1-1v-5c0-0.552-0.448-1-1-1zM2 4h20v3h-20zM10 13h4c0.552 0 1-0.448 1-1s-0.448-1-1-1h-4c-0.552 0-1 0.448-1 1s0.448 1 1 1z">
+                            </path>
+                        </svg>
+                    </a>
+
+                </div>
+            </header>
+            <!-- fin de header -->
+            <div class="container-main">
+                <div class="row-main">
+                    <div class="section1-row-main">
+                        <div class="block1 first-block ">
+                            <h3 class="title-block1">Weekly Featured</h3>
+                            <h1 class="title1-block1">Hello, Summer Vacation!</h1>
+                            <p class="muted-block1 size"> school is just around the corner ,so finish off
+                                summer break with a bank.
+                                A last minute familly vaccation will give the kids stories to share when they return
+                                to school and memories to last a lifetime
+                            </p>
+                            <div class="container-article">
+                                <div class="article1-main">
+                                    <div class="container-fleche"> <img src="img/logos/precedent.svg" alt="" class="fleche-precedente"></div>
+                                  <div>
+                                    <div class="container-img-article">
+                                      
+                                        <img src="img/illustrations/selfie.jpg" alt="picture1"
+                                            class="img-container-article img-size">
+
+                                        <div class="time-article time-article1-block1">17h:55</div>
+                                    </div>
+                                    <h2 class="title-article1">MIchel ADAMS</h2>
+                                    <h1 class="title-article2"> Day is my life:Summer ...</h1>
+                                    <span class="muted-block1"> VIEW 28.5K</span>
+                                    <span class="muted-block1"> 60S Ago</span>
+
+
+                                  </div>
+                                </div>
+                                <div class="article1-main">
+                                   
+                                  <div class="article-first">
+                                    <div class="container-img-article">
+                                      
+                                        <img src="img/illustrations/selfie.jpg" alt="picture1"
+                                            class="img-container-article img-size">
+
+                                        <div class="time-article time-article1-block1">17h:55</div>
+                                    </div>
+                                    <h2 class="title-article1">MIchel ADAMS</h2>
+                                    <h1 class="title-article2"> Day is my life:Summer ...</h1>
+                                    <span class="muted-block1"> VIEW 28.5K</span>
+                                    <span class="muted-block1"> 60S Ago</span>
+
+
+                                  </div>
+                                  <div class="container-fleche"> <img src="img/logos/precedent.svg" alt="" class="fleche-next"></div>
+                                </div>
+                              
+                            </div>
+
+                        </div>
+                        <div class="block1 second-block">
+                            <div>
+                                <div class="container-img">
+                                    <img src="img/illustrations/kayak.jpg" alt="picture" class="img-block2">
+                                    <div> <img class="img-profils-block2  img-profis-block2-first"
+                                            src="img/users/men/man-3.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">16h:52</div>
+                                </div>
+                                <h1 class="title1-block2"> Warren Munoz</h1>
+                                <h2 class="title2-block2">lake house vaccation! Boating . Tubing and more!</h2>
+                                <p class="muted-block1 text-block2">hope you gyus enjoyed seing what I do up north! i'm
+                                    going tro try
+                                    and get more footage of the really fun stuff we do up north next time ,but
+                                    be sure to like and subscribe:)
+                                </p>
+                                <span class="muted-block1"> VIEWS 29k 2k</span><span class="muted-block1"> LIKES
+                                    1.6K</span><span class="muted-block1"> 3DS ago</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section class="section2-row-main ">
+                        <header class="head-section2">
+                            <div>
+                                <strong>Recommanded</strong>
+                                <span class="muted-block1">Show More</span>
+                            </div>
+                            <p><strong>By View trending</strong></p>
+                        </header>
+                        <div class="card">
+                            <div class="card-item1">
+                                <div class="container-img">
+                                    <img src="img/illustrations/dog.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/girls/waman-1.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">21h:38</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">harry fisher</h1>
+                                <h2 class="title-grid"> jealous dog want attention</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 28.1K</span>
+                                    <span class="muted-block1 size-grid-link"> 1H Ago</span>
+
+
+                            </div>
+                            <div class="card-item2">
+                                <div class="container-img">
+                                    <img src="img/illustrations/fleuve-montagne.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/girls/woman-2.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">41h:38</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Minnie clark</h1>
+                                <h2 class="title-grid"> Moutains|beautiful Chill Mix</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 11.3K</span>
+                                    <span class="muted-block1 size-grid-link"> 5HS Ago</span>
+
+
+                            </div>
+                            <div class="card-item3">
+                                <div class="container-img">
+                                    <img src="img/illustrations/plage.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/girls/woman-3.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">09h:07</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Brent Lynch</h1>
+                                <h2 class="title-grid"> OUR FIRST TIME IN BANK CAN..</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 62.5.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 3DS Ago</span>
+
+
+                            </div>
+                            <div class="card-item4">
+                                <div class="container-img">
+                                    <img src="img/illustrations/live-road-trip.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-1.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">11h:52</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Shane Brewer</h1>
+                                <h2 class="title-grid">The Best  Gift for Your child</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 26.3K</span>
+                                    <span class="muted-block1 size-grid-link"> 5DS Ago</span>
+
+
+                            </div>
+                            <div class="card-item5">
+                                <div class="container-img">
+                                    <img src="img/illustrations/desert.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-2.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">02h:18:39</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Clayton Bates</h1>
+                                <h2 class="title-grid"> TING & CHEB MAMI -DESERT...</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 79.5.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 11DS Ago</span>
+
+
+                            </div>
+                            <div class="card-item6">
+                                <div class="container-img">
+                                    <img src="img/illustrations/skier.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-3.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">26h:17</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Kenneth Sandoval</h1>
+                                <h2 class="title-grid"> jealous dog want attention</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 2.2M</span>
+                                    <span class="muted-block1 size-grid-link"> 3YS Ago</span>
+
+
+                            </div>
+                            <div class="card-item7">
+                                <div class="container-img">
+                                    <img src="img/illustrations/bmw.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-4.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">12h:23</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">BMW</h1>
+                                <h2 class="title-grid">BMW M2 competition:the Cutti...</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 26.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 2DS Ago</span>
+
+
+                            </div>
+                            <div class="card-item8">
+                                <div class="container-img">
+                                    <img src="img/illustrations/panier-de-fruit.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-5.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">53h:19</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Elva Zhang</h1>
+                                <h2 class="title-grid"> 5 Foods for  a Healthy Life</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 1.4M</span>
+                                    <span class="muted-block1 size-grid-link"> 7MS Ago</span>
+
+
+                            </div>
+                            <div class="card-item2">
+                                <div class="container-img">
+                                    <img src="img/illustrations/fleuve-montagne.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-5.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">16h:52</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Minniey clark</h1>
+                                <h2 class="title-grid"> jealous dog want attention</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 28.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 60S Ago</span>
+
+
+                            </div>
+                            <div class="card-item2">
+                                <div class="container-img">
+                                    <img src="img/illustrations/fleuve-montagne.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-1.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">16h:52</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Minniey clark</h1>
+                                <h2 class="title-grid"> jealous dog want attention</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 28.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 60S Ago</span>
+
+
+                            </div>
+                            <div class="card-item2">
+                                <div class="container-img">
+                                    <img src="img/illustrations/fleuve-montagne.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-2.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">16h:52</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Minniey clark</h1>
+                                <h2 class="title-grid"> jealous dog want attention</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 28.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 60S Ago</span>
+
+
+                            </div>
+                            <div class="card-item2">
+                                <div class="container-img">
+                                    <img src="img/illustrations/fleuve-montagne.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-3.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">16h:52</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Minniey clark</h1>
+                                <h2 class="title-grid"> jealous dog want attention</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 28.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 60S Ago</span>
+
+
+                            </div>
+                            <div class="card-item2">
+                                <div class="container-img">
+                                    <img src="img/illustrations/fleuve-montagne.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-4.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">16h:52</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Minniey clark</h1>
+                                <h2 class="title-grid"> jealous dog want attention</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 28.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 60S Ago</span>
+
+
+                            </div>
+                            <div class="card-item2">
+                                <div class="container-img">
+                                    <img src="img/illustrations/fleuve-montagne.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-5.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">16h:52</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Minniey clark</h1>
+                                <h2 class="title-grid"> jealous dog want attention</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 28.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 60S Ago</span>
+
+
+                            </div>
+                            <div class="card-item2">
+                                <div class="container-img">
+                                    <img src="img/illustrations/fleuve-montagne.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-3.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">16h:52</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Minniey clark</h1>
+                                <h2 class="title-grid"> jealous dog want attention</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 28.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 60S Ago</span>
+
+
+                            </div>
+                            <div class="card-item2">
+                                <div class="container-img">
+                                    <img src="img/illustrations/fleuve-montagne.jpg" alt="picture" class="img-grid1-bg">
+                                    <div> <img class="img-profils-block2  img-grid-card-profile"
+                                            src="img/users/men/man-3.jpg" alt="picture"></div>
+                                    <div class="time-article time-article1-block2">16h:52</div>
+                                </div>
+                                <h1 class="muted-block1 title1-grid">Minniey clark</h1>
+                                <h2 class="title-grid"> jealous dog want attention</h2>
+                                <span class="muted-block1 size-grid-link"> VIEW 28.5K</span>
+                                    <span class="muted-block1 size-grid-link"> 60S Ago</span>
+
+
+                            </div>
+                          
+                           
+                            
+                        </div>
+                    </section>
+
+
+
+                </div>
+                <div class="row-body-centre"></div>
+                <div class="side-bar-rigth">
+                    <section class="sidebar-section1">
+                        <div>
+                            <span class="link-left-bar">LIVE </span>
+                            <span class="muted-block1 link-right">show more</span>
+                        </div>
+                        <div class="container-img">
+                            <div class="container-img-article">
+                                <img src="img/users/men/man-4.jpg" alt="picture1" class="img1-sidebar-right">
+                                <div> <img class="img-profils-block2  img-profil-sidebar-right"
+                                        src="img/users/men/man-3.jpg" alt="picture"></div>
+                                <div class="time-article time-article-sidebar-left">16h:55</div>
+                            </div>
+                            <strong class="muted-block1  small-title"> Gary Hampton</strong>
+                            <h2 class="title-article2">
+                                the trip with my girlfriend in Maxico
+                            </h2>
+                            <p class="muted-block1 text-sidebar-left">
+                                Had the greatest time in Mexico with my girlfriend. Get a peek into our adventures
+                                outils.and memories
+                            </p>
+                            <span class="muted-block1"> VIEW 28.5K</span>
+                            <span class="muted-block1"> 60S Ago</span>
+
+                        </div>
+                    </section>
+                    <section class="sidebar-section">
+                        <div>
+                            <span class="title-article2">Top Channel</span>
+                            <span class="muted-block1"> show more</span>
+                        </div>
+                        <div class="row-channel">
+                            <div class="channel-left">
+                                <img src="img/logos/logo-lego.jpg" alt="logo" class="img-circle">
+                                <div class="description-text">
+                                    <h1 class="muted-block1 title-channel">
+                                        LEGO
+                                    </h1>
+                                    <span>6.2M Subcribers</span>
+                                </div>
+                            </div>
+                            <img src="img/illustrations" alt="">
+                        </div>
+                        <div class="row-channel">
+                            <div class="channel-left">
+                                <img src="img/logos/Logo-ibm.jpg" alt="logo" class="img-circle">
+                                <div class="description-text">
+                                    <h1 class="muted-block1 title-channel">
+                                        IBM
+                                    </h1>
+                                    <span>6.2M Subcribers</span>
+                                </div>
+                            </div>
+                            <img src="img/illustrations" alt="">
+                        </div>
+                        <div class="row-channel">
+                            <div class="channel-left">
+                                <img src="img/logos/logo-nike.jpg" alt="logo" class="img-circle">
+                                <div class="description-text">
+                                    <h1 class="muted-block1 title-channel">
+                                        NIKE
+                                    </h1>
+                                    <span>6.2M Subcribers</span>
+                                </div>
+                            </div>
+                            <img src="img/illustrations" alt="">
+                        </div>
+                        <div class="row-channel">
+                            <div class="channel-left">
+                                <img src="img/logos/logo-cbcnews.png" alt="logo" class="img-circle">
+                                <div class="description-text">
+                                    <h1 class="muted-block1 title-channel">
+                                        CB NEWS
+                                    </h1>
+                                    <span>6.2M Subcribers</span>
+                                </div>
+                            </div>
+                            <img src="img/illustrations" alt="">
+                        </div>
+                        <div class="row-channel">
+                            <div class="channel-left">
+                                <img src="img/logos/logo-netflix.webp" alt="logo" class="img-circle">
+                                <div class="description-text">
+                                    <h1 class="muted-block1 title-channel">
+                                        NETFLIX
+                                    </h1>
+                                    <span>6.2M Subcribers</span>
+                                </div>
+                            </div>
+                            <img src="img/illustrations" alt="">
+                        </div>
+                        <div class="row-channel">
+                            <div class="channel-left">
+                                <img src="img/logos/logo-lamborghini.png" alt="logo" class="img-circle">
+                                <div class="description-text">
+                                    <h1 class="muted-block1 title-channel">
+                                        LAMBORGHINI
+                                    </h1>
+                                    <span>6.2M Subcribers</span>
+                                </div>
+                            </div>
+                            <img src="img/illustrations" alt="">
+                        </div>
+                        <div class="row-channel sidebar-footer-row">
+                            <img src="img/illustrations/music.png" alt="" width="100%" height="200px">
+                            <img src="img/logos/logo-youtube.png" alt="logo-youtube" class="logo-footer-sidbebar-right">
+
+                        </div>
+                    </section>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!--   <div class="article2-main">
+                                    <div class="container-img-article">
+                                        <img src="img/users/men/man-2.jpg" alt="picture1"
+                                            class="img-container-article img-size">
+                                        <span>></span>
+                                        <div class="time-article  time-article1-block1">16h:55</div>
+                                    </div>
+                                    <h2 class="title-article1">MIchel ADAMS</h2>
+                                    <h1 class="title-article2"> Day is my life:Summer ...</h1>
+                                    <span class="muted-block1"> VIEW 28.5K</span>
+                                    <span class="muted-block1"> 60S Ago</span>
+                                </div> -->
+</body>
+
+</html>
